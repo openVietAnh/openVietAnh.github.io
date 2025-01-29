@@ -1,559 +1,559 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./nord.css" />
-    <title>Tran Viet Anh</title>
-  </head>
-  <style>
+<head>
+	<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		crossorigin="anonymous"
+	/>
+	<link rel="stylesheet" href="./nord.css" />
+	<title>Tran Viet Anh</title>
+</head>
+<style>
     @font-face {
-      font-family: lmroman;
-      src: url("./lmroman9-regular.otf") format("opentype");
+        font-family: lmroman;
+        src: url("./lmroman9-regular.otf") format("opentype");
     }
 
     body {
-      background-color: var(--nord0);
-      color: var(--nord4);
+        background-color: var(--nord0);
+        color: var(--nord4);
     }
 
     .nav-link {
-      color: var(--nord7);
+        color: var(--nord7);
     }
 
     .nav-tabs .nav-item.show .nav-link,
     .nav-tabs .nav-link.active {
-      background-color: var(--nord1);
-      color: var(--nord13);
+        background-color: var(--nord1);
+        color: var(--nord13);
     }
 
     a {
-      color: var(--nord14);
+        color: var(--nord14);
     }
 
     button {
-      font-family: lmroman;
-      font-weight: bolder;
-      font-size: larger;
+        font-family: lmroman;
+        font-weight: bolder;
+        font-size: larger;
     }
 
     h1 {
-      font-family: lmroman;
-      font-weight: bolder;
+        font-family: lmroman;
+        font-weight: bolder;
     }
 
     h5 {
-      font-family: lmroman;
-      font-weight: bold;
-      font-style: italic;
-      margin-bottom: 0;
+        font-family: lmroman;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 0;
     }
 
     p,
     li {
-      font-family: lmroman;
-      margin-bottom: 0;
+        font-family: lmroman;
+        margin-bottom: 0;
     }
 
     .container-fluid {
-      max-width: 1000px;
-      padding-top: 20px;
+        max-width: 1000px;
+        padding-top: 20px;
     }
-  </style>
+</style>
 
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h1>Trần Việt Anh</h1>
-          <p>October 27th 2000</p>
-        </div>
-        <div class="col">
-          <h1>Contacts</h1>
-          <p>Email: vietanhtran.uet@gmail.com - (+84) 988 582 914</p>
-        </div>
-      </div>
-      <div class="row">
-        <nav>
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <button
-              class="nav-link active"
-              id="nav-experiences-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-experiences"
-              type="button"
-              role="tab"
-              aria-controls="nav-experiences"
-              aria-selected="true"
-            >
-              Experiences
-            </button>
-            <button
-              class="nav-link"
-              id="nav-achievement-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-achievement"
-              type="button"
-              role="tab"
-              aria-controls="nav-achievement"
-              aria-selected="false"
-            >
-              Certificates & Achievement
-            </button>
-            <button
-              class="nav-link"
-              id="nav-iot-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-iot"
-              type="button"
-              role="tab"
-              aria-controls="nav-iot"
-              aria-selected="false"
-            >
-              My IoT stuff
-            </button>
-            <button
-              class="nav-link"
-              id="nav-laptops-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-laptops"
-              type="button"
-              role="tab"
-              aria-controls="nav-laptops"
-              aria-selected="false"
-            >
-              My Laptops
-            </button>
-            <button
-              class="nav-link"
-              id="nav-keyboards-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-keyboards"
-              type="button"
-              role="tab"
-              aria-controls="nav-keyboards"
-              aria-selected="false"
-            >
-              My Mechanicals Keyboards
-            </button>
-            <button
-              class="nav-link"
-              id="nav-links-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-links"
-              type="button"
-              role="tab"
-              aria-controls="nav-links"
-              aria-selected="false"
-            >
-              Links
-            </button>
-          </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-          <div
-            class="tab-pane fade show active"
-            id="nav-experiences"
-            role="tabpanel"
-            aria-labelledby="nav-experiences-tab"
-          >
-            <ol>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Ho Thi Hang's Boyfriend</h5>
-                  <p>June 2023 - July 2024; August 2024 - now</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Cooking</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Blockchain & Software Engineer</h5>
-                  <p>November 2022 - now</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Teko Solution</p>
-                  </li>
-                  <li>
-                    <p>
-                      Micro-frontend, Aiken, Golang, Kotlin, React, CI/CD,
-                      JavaScript/TypeScript
-                    </p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Data mining and analysis in Decentralized Finance</h5>
-                  <p>April 2022 - now</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Client: Faculty of Finance & Banking - UEB - VNU</p>
-                  </li>
-                  <li>
-                    <p>Python, GraphQL</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Developing decentralized applications</h5>
-                  <p>October 2021 - June 2022</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Company: TVM Digital</p>
-                  </li>
-                  <li>
-                    <p>Angular, Node.js, Solidity, Ethereum</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Blockchain Research</h5>
-                  <p>September 2021 - November 2022</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Blockchain Research and Application Laboratory - UET</p>
-                  </li>
-                  <li>
-                    <p>
-                      Supervisor: Associate Professor PhD. Trương Anh Hoàng.
-                    </p>
-                  </li>
-                  <li>
-                    <p>Solidity, Rust, Ethereum, Avalanche, Terra</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Teaching Assistant</h5>
-                  <p>2020 - 2022</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>
-                      Class: Robotics (INT 3409) - ROS (Robot Operating System)
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Teachers: PhD. Ta Viet Cuong, PhD. Le Nguyen Khoi, Grad
-                      Student. Pham Dình Tuan.
-                    </p>
-                  </li>
-                  <li>
-                    <p>C++, Python, Tensorflow, OpenCV</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Evolutionary Computation Research for Deep Learning</h5>
-                  <p>2020 - 2022</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Computer Science Laboratory - UET</p>
-                  </li>
-                  <li>
-                    <p>Supervisor: PhD. Le Nguyen Khoi.</p>
-                  </li>
-                  <li>
-                    <p>Python, Tensorflow</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>
-                    Machine Learning/Computer Vision Research for Robotics
-                  </h5>
-                  <p>2019 - 2022</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Computer Science Laboratory - UET</p>
-                  </li>
-                  <li>
-                    <p>Supervisor: PhD. Le Nguyen Khoi.</p>
-                  </li>
-                  <li>
-                    <p>C++, Python, Tensorflow, OpenCV</p>
-                  </li>
-                </ul>
-              </li>
-            </ol>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="nav-achievement"
-            role="tabpanel"
-            aria-labelledby="nav-achievement-tab"
-          >
-            <ol>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>
-                    Participant in Science and Technology Research Competition -
-                    UET - VNU
-                  </h5>
-                  <p>2022</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Evolutionary Computing applied in Deep Learning</p>
-                  </li>
-                  <li>
-                    <p>Python, Tensorflow</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Second prize VMO Hackathon Dapp Creator 2021</h5>
-                  <p>December 2021</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>Educational Platform using Ethereum Blockchain</p>
-                  </li>
-                  <li>
-                    <p>Angular, Node.js, Solidity, Ethereum</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Blockchain Specialization Certificates</h5>
-                  <p>July 2021</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>
-                      Coursera -
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://coursera.org/verify/specialization/9EP3RFKY8QEZ"
-                        >click to verify</a
-                      >
-                    </p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Deep Learning Specialization Certificates</h5>
-                  <p>August 2020</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>
-                      Coursera -
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://coursera.org/verify/specialization/KBWPAFP973NV"
-                        >click to verify</a
-                      >
-                    </p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>Youth IT Competition</h5>
-                  <p>2017</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>
-                      Second prize Creative Software for Cau Giay District's
-                      High School Students.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Third prize Creative Software for Hanoi's High School
-                      Students
-                    </p>
-                  </li>
-                  <li>
-                    <p>Competitive Programming, C#, .NET</p>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <div class="d-flex w-100 justify-content-between">
-                  <h5>IT Competition for Gifted Students</h5>
-                  <p>2015</p>
-                </div>
-                <ul>
-                  <li>
-                    <p>
-                      First prize Cau Giay District's Competition for Secondary
-                      School Students.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Third prize Hanoi's Competition for Secondary School
-                      Students.
-                    </p>
-                  </li>
-                  <li>
-                    <p>Third prize Hanoi Youth IT Competitive Programming.</p>
-                  </li>
-                  <li>
-                    <p>Competitive Programming</p>
-                  </li>
-                </ul>
-              </li>
-            </ol>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="nav-iot"
-            role="tabpanel"
-            aria-labelledby="nav-laptops-tab"
-          >
-            <ol>
-              <li>
-                <h5>Zoom:Bit robot containing Reka:Bit and Micro:bit V2</h5>
-              </li>
-              <li>
-                <h5>Wear:Bit watch containing Micro:bit V2</h5>
-              </li>
-            </ol>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="nav-laptops"
-            role="tabpanel"
-            aria-labelledby="nav-laptops-tab"
-          >
-            <ol>
-              <li>
-                <h5>Acer Nitro V with Fedora Linux 41 (Workstation Edition) and GNOME</h5>
-              </li>
-              <ul>
-                <li>13th Gen Intel® Core™ i7-13620H x 16</li>
-                <li>16.0 GiB of RAM</li>
-                <li>512GB SSD Storage</li>
-                <li>NVIDIA GeForce RTX 2050</li>
-              </ul>
-              <li>
-                <h5>Dell Vostro 3405 with Ubuntu 24.04 Pro and GNOME</h5>
-              </li>
-              <ul>
-                <li>AMD Ryzen 7 3700U</li>
-                <li>13.5 GiB of RAM</li>
-                <li>640.1GB SSD Storage</li>
-                <li>Radeon Vega 10 Mobile Gfx</li>
-              </ul>
-              <li>
-                <h5>HP ProBook 430 G6 with Linux Mint</h5>
-              </li>
-              <ul>
-                <li>Intel® Core™ i7-8565U CPU @ 1.80GHz x 8</li>
-                <li>13.5 GiB of RAM</li>
-                <li>241.4GB SSD Storage and 1TB HDD Storage</li>
-                <li>Mesa Intel® UHD Graphics 620 (WHL GT2)</li>
-              </ul>
-            </ol>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="nav-keyboards"
-            role="tabpanel"
-            aria-labelledby="nav-keyboards-tab"
-          >
-            <ol>
-              <li>
-                <h5>
-                  Sofle V2 with Switch Akko Cream V3 Pro Fairy Silent - Linear /
-                  Pre-lubed / 55g and Minimalist Black Keycaps PBT Dye-sub
-                  Cherry profile
-                </h5>
-              </li>
-              <li>
-                <h5>Corsair K63 Wireless Blue</h5>
-              </li>
-              <li>
-                <h5>AKKO 3098 RF Dracula Castle</h5>
-              </li>
-              <li>
-                <h5>Leopold FC660M BT</h5>
-              </li>
-              <li>
-                <h5>AKKO 3108 RF White on Black</h5>
-              </li>
-              <li>
-                <h5>Dareu EK807G</h5>
-              </li>
-            </ol>
-          </div>
-          <div
-            class="tab-pane fade"
-            id="nav-links"
-            role="tabpanel"
-            aria-labelledby="nav-links-tab"
-          >
-            <ul>
-              <li>
-                Github: <a href="https://github.com/openVietAnh">openVietAnh</a>
-              </li>
-              <li>
-                Facebook:
-                <a href="https://www.facebook.com/tv.anh2k/"
-                  >Trần Việt Anh (Abel)</a
-                >
-              </li>
-              <li>
-                Twitter: <a href="https://x.com/tr_vietanh">@tr_vietanh</a>
-              </li>
-              <li>
-                Instagram:
-                <a href="https://www.instagram.com/println_anh.tv/"
-                  >@println_anh.tv</a
-                >
-              </li>
-              <li>
-                CodeForces:
-                <a href="https://codeforces.com/profile/anhtv2710">anhtv2710</a>
-              </li>
-              <li>
-                Leetcode:
-                <a href="https://leetcode.com/u/vietanhtranuet/"
-                  >vietanhtranuet</a
-                >
-              </li>
-              <li>
-                Twitch:
-                <a href="https://www.twitch.tv/cplusplus2710">cplusplus2710</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col">
+			<h1>Trần Việt Anh</h1>
+			<p>October 27th 2000</p>
+		</div>
+		<div class="col">
+			<h1>Contacts</h1>
+			<p>Email: vietanhtran.uet@gmail.com - (+84) 988 582 914</p>
+		</div>
+	</div>
+	<div class="row">
+		<nav>
+			<div class="nav nav-tabs" id="nav-tab" role="tablist">
+				<button
+					class="nav-link active"
+					id="nav-experiences-tab"
+					data-bs-toggle="tab"
+					data-bs-target="#nav-experiences"
+					type="button"
+					role="tab"
+					aria-controls="nav-experiences"
+					aria-selected="true"
+				>
+					Experiences
+				</button>
+				<button
+					class="nav-link"
+					id="nav-achievement-tab"
+					data-bs-toggle="tab"
+					data-bs-target="#nav-achievement"
+					type="button"
+					role="tab"
+					aria-controls="nav-achievement"
+					aria-selected="false"
+				>
+					Certificates & Achievement
+				</button>
+				<button
+					class="nav-link"
+					id="nav-iot-tab"
+					data-bs-toggle="tab"
+					data-bs-target="#nav-iot"
+					type="button"
+					role="tab"
+					aria-controls="nav-iot"
+					aria-selected="false"
+				>
+					My IoT stuff
+				</button>
+				<button
+					class="nav-link"
+					id="nav-laptops-tab"
+					data-bs-toggle="tab"
+					data-bs-target="#nav-laptops"
+					type="button"
+					role="tab"
+					aria-controls="nav-laptops"
+					aria-selected="false"
+				>
+					My Laptops
+				</button>
+				<button
+					class="nav-link"
+					id="nav-keyboards-tab"
+					data-bs-toggle="tab"
+					data-bs-target="#nav-keyboards"
+					type="button"
+					role="tab"
+					aria-controls="nav-keyboards"
+					aria-selected="false"
+				>
+					My Mechanicals Keyboards
+				</button>
+				<button
+					class="nav-link"
+					id="nav-links-tab"
+					data-bs-toggle="tab"
+					data-bs-target="#nav-links"
+					type="button"
+					role="tab"
+					aria-controls="nav-links"
+					aria-selected="false"
+				>
+					Links
+				</button>
+			</div>
+		</nav>
+		<div class="tab-content" id="nav-tabContent">
+			<div
+				class="tab-pane fade show active"
+				id="nav-experiences"
+				role="tabpanel"
+				aria-labelledby="nav-experiences-tab"
+			>
+				<ol>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Ho Thi Hang's Boyfriend</h5>
+							<p>June 2023 - July 2024; August 2024 - now</p>
+						</div>
+						<ul>
+							<li>
+								<p>Cooking</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Blockchain & Software Engineer</h5>
+							<p>November 2022 - now</p>
+						</div>
+						<ul>
+							<li>
+								<p>Teko Solution</p>
+							</li>
+							<li>
+								<p>
+									Micro-frontend, Aiken, Golang, Kotlin, React, CI/CD,
+									JavaScript/TypeScript
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Data mining and analysis in Decentralized Finance</h5>
+							<p>April 2022 - now</p>
+						</div>
+						<ul>
+							<li>
+								<p>Client: Faculty of Finance & Banking - UEB - VNU</p>
+							</li>
+							<li>
+								<p>Python, GraphQL</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Developing decentralized applications</h5>
+							<p>October 2021 - June 2022</p>
+						</div>
+						<ul>
+							<li>
+								<p>Company: TVM Digital</p>
+							</li>
+							<li>
+								<p>Angular, Node.js, Solidity, Ethereum</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Blockchain Research</h5>
+							<p>September 2021 - November 2022</p>
+						</div>
+						<ul>
+							<li>
+								<p>Blockchain Research and Application Laboratory - UET</p>
+							</li>
+							<li>
+								<p>
+									Supervisor: Associate Professor PhD. Trương Anh Hoàng.
+								</p>
+							</li>
+							<li>
+								<p>Solidity, Rust, Ethereum, Avalanche, Terra</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Teaching Assistant</h5>
+							<p>2020 - 2022</p>
+						</div>
+						<ul>
+							<li>
+								<p>
+									Class: Robotics (INT 3409) - ROS (Robot Operating System)
+								</p>
+							</li>
+							<li>
+								<p>
+									Teachers: PhD. Ta Viet Cuong, PhD. Le Nguyen Khoi, Grad
+									Student. Pham Dình Tuan.
+								</p>
+							</li>
+							<li>
+								<p>C++, Python, Tensorflow, OpenCV</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Evolutionary Computation Research for Deep Learning</h5>
+							<p>2020 - 2022</p>
+						</div>
+						<ul>
+							<li>
+								<p>Computer Science Laboratory - UET</p>
+							</li>
+							<li>
+								<p>Supervisor: PhD. Le Nguyen Khoi.</p>
+							</li>
+							<li>
+								<p>Python, Tensorflow</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>
+								Machine Learning/Computer Vision Research for Robotics
+							</h5>
+							<p>2019 - 2022</p>
+						</div>
+						<ul>
+							<li>
+								<p>Computer Science Laboratory - UET</p>
+							</li>
+							<li>
+								<p>Supervisor: PhD. Le Nguyen Khoi.</p>
+							</li>
+							<li>
+								<p>C++, Python, Tensorflow, OpenCV</p>
+							</li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+			<div
+				class="tab-pane fade"
+				id="nav-achievement"
+				role="tabpanel"
+				aria-labelledby="nav-achievement-tab"
+			>
+				<ol>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>
+								Participant in Science and Technology Research Competition -
+								UET - VNU
+							</h5>
+							<p>2022</p>
+						</div>
+						<ul>
+							<li>
+								<p>Evolutionary Computing applied in Deep Learning</p>
+							</li>
+							<li>
+								<p>Python, Tensorflow</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Second prize VMO Hackathon Dapp Creator 2021</h5>
+							<p>December 2021</p>
+						</div>
+						<ul>
+							<li>
+								<p>Educational Platform using Ethereum Blockchain</p>
+							</li>
+							<li>
+								<p>Angular, Node.js, Solidity, Ethereum</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Blockchain Specialization Certificates</h5>
+							<p>July 2021</p>
+						</div>
+						<ul>
+							<li>
+								<p>
+									Coursera -
+									<a
+										target="_blank"
+										rel="noopener noreferrer"
+										href="https://coursera.org/verify/specialization/9EP3RFKY8QEZ"
+									>click to verify</a
+									>
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Deep Learning Specialization Certificates</h5>
+							<p>August 2020</p>
+						</div>
+						<ul>
+							<li>
+								<p>
+									Coursera -
+									<a
+										target="_blank"
+										rel="noopener noreferrer"
+										href="https://coursera.org/verify/specialization/KBWPAFP973NV"
+									>click to verify</a
+									>
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>Youth IT Competition</h5>
+							<p>2017</p>
+						</div>
+						<ul>
+							<li>
+								<p>
+									Second prize Creative Software for Cau Giay District's
+									High School Students.
+								</p>
+							</li>
+							<li>
+								<p>
+									Third prize Creative Software for Hanoi's High School
+									Students
+								</p>
+							</li>
+							<li>
+								<p>Competitive Programming, C#, .NET</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="d-flex w-100 justify-content-between">
+							<h5>IT Competition for Gifted Students</h5>
+							<p>2015</p>
+						</div>
+						<ul>
+							<li>
+								<p>
+									First prize Cau Giay District's Competition for Secondary
+									School Students.
+								</p>
+							</li>
+							<li>
+								<p>
+									Third prize Hanoi's Competition for Secondary School
+									Students.
+								</p>
+							</li>
+							<li>
+								<p>Third prize Hanoi Youth IT Competitive Programming.</p>
+							</li>
+							<li>
+								<p>Competitive Programming</p>
+							</li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+			<div
+				class="tab-pane fade"
+				id="nav-iot"
+				role="tabpanel"
+				aria-labelledby="nav-laptops-tab"
+			>
+				<ol>
+					<li>
+						<h5>Zoom:Bit robot containing Reka:Bit and Micro:bit V2</h5>
+					</li>
+					<li>
+						<h5>Wear:Bit watch containing Micro:bit V2</h5>
+					</li>
+				</ol>
+			</div>
+			<div
+				class="tab-pane fade"
+				id="nav-laptops"
+				role="tabpanel"
+				aria-labelledby="nav-laptops-tab"
+			>
+				<ol>
+					<li>
+						<h5>Acer Nitro V with Windows 11 Home Single Language version 23H2</h5>
+					</li>
+					<ul>
+						<li>13th Gen Intel® Core™ i7-13620H x 16</li>
+						<li>16.0 GiB of RAM</li>
+						<li>512GB SSD Storage</li>
+						<li>NVIDIA GeForce RTX 2050</li>
+					</ul>
+					<li>
+						<h5>Dell Vostro 3405 with Ubuntu 24.04 Pro and GNOME</h5>
+					</li>
+					<ul>
+						<li>AMD Ryzen 7 3700U</li>
+						<li>13.5 GiB of RAM</li>
+						<li>640.1GB SSD Storage</li>
+						<li>Radeon Vega 10 Mobile Gfx</li>
+					</ul>
+					<li>
+						<h5>HP ProBook 430 G6 with Fedora Workstation 41</h5>
+					</li>
+					<ul>
+						<li>Intel® Core™ i7-8565U CPU @ 1.80GHz x 8</li>
+						<li>13.5 GiB of RAM</li>
+						<li>241.4GB SSD Storage and 1TB HDD Storage</li>
+						<li>Mesa Intel® UHD Graphics 620 (WHL GT2)</li>
+					</ul>
+				</ol>
+			</div>
+			<div
+				class="tab-pane fade"
+				id="nav-keyboards"
+				role="tabpanel"
+				aria-labelledby="nav-keyboards-tab"
+			>
+				<ol>
+					<li>
+						<h5>
+							Sofle V2 with Switch Akko Cream V3 Pro Fairy Silent - Linear /
+							Pre-lubed / 55g and Minimalist Black Keycaps PBT Dye-sub
+							Cherry profile
+						</h5>
+					</li>
+					<li>
+						<h5>Corsair K63 Wireless Blue</h5>
+					</li>
+					<li>
+						<h5>AKKO 3098 RF Dracula Castle</h5>
+					</li>
+					<li>
+						<h5>Leopold FC660M BT</h5>
+					</li>
+					<li>
+						<h5>AKKO 3108 RF White on Black</h5>
+					</li>
+					<li>
+						<h5>Dareu EK807G</h5>
+					</li>
+				</ol>
+			</div>
+			<div
+				class="tab-pane fade"
+				id="nav-links"
+				role="tabpanel"
+				aria-labelledby="nav-links-tab"
+			>
+				<ul>
+					<li>
+						Github: <a href="https://github.com/openVietAnh">openVietAnh</a>
+					</li>
+					<li>
+						Facebook:
+						<a href="https://www.facebook.com/tv.anh2k/"
+						>Trần Việt Anh (Abel)</a
+						>
+					</li>
+					<li>
+						Twitter: <a href="https://x.com/tr_vietanh">@tr_vietanh</a>
+					</li>
+					<li>
+						Instagram:
+						<a href="https://www.instagram.com/println_anh.tv/"
+						>@println_anh.tv</a
+						>
+					</li>
+					<li>
+						CodeForces:
+						<a href="https://codeforces.com/profile/anhtv2710">anhtv2710</a>
+					</li>
+					<li>
+						Leetcode:
+						<a href="https://leetcode.com/u/vietanhtranuet/"
+						>vietanhtranuet</a
+						>
+					</li>
+					<li>
+						Twitch:
+						<a href="https://www.twitch.tv/cplusplus2710">cplusplus2710</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+	crossorigin="anonymous"
+></script>
+</body>
 </html>
