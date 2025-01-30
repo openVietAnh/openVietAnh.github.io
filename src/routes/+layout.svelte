@@ -9,14 +9,18 @@
 		<!-- Insert the list: -->
 		<nav class="list-nav">
 			<ul>
-				<li><a href="/">Home</a></li>
-				<!-- <li><a href="/about">About</a></li> -->
+				<li><a href="/">Experiences</a></li>
+				<li><a href="/cert">Certificate & Achievement</a></li>
+				<li><a href="/iot">My IoT Stuff</a></li>
+				<li><a href="/laptops">My Laptops</a></li>
+				<li><a href="/keyboards">My Mechanical Keyboards</a></li>
+				<li><a href="/links">Link</a></li>
 			</ul>
 		</nav>
 		<!-- --- -->
 	</svelte:fragment>
 	{@render children()}
 	<svelte:fragment slot="header">
-		<AppBar>Skeleton</AppBar>
+		<AppBar>Tran Viet Anh</AppBar>
 	</svelte:fragment>
 </AppShell>
