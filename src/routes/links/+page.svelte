@@ -1,14 +1,37 @@
 <script>
-	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="container mx-auto space-y-8 p-8">
-	<h1 class="h1">Hello Skeleton</h1>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-	<Avatar src="https://i.pravatar.cc/" />
-	<section>
-		<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
-		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
-		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
-	</section>
-</div>
+<ul>
+	<li>
+		Github: <a href="https://github.com/openVietAnh">openVietAnh</a>
+	</li>
+	<li>
+		Facebook:
+		<a href="https://www.facebook.com/tv.anh2k/"
+		>Trần Việt Anh (Abel)</a
+		>
+	</li>
+	<li>
+		Twitter: <a href="https://x.com/tr_vietanh">@tr_vietanh</a>
+	</li>
+	<li>
+		Instagram:
+		<a href="https://www.instagram.com/println_anh.tv/"
+		>@println_anh.tv</a
+		>
+	</li>
+	<li>
+		CodeForces:
+		<a href="https://codeforces.com/profile/anhtv2710">anhtv2710</a>
+	</li>
+	<li>
+		Leetcode:
+		<a href="https://leetcode.com/u/vietanhtranuet/"
+		>vietanhtranuet</a
+		>
+	</li>
+	<li>
+		Twitch:
+		<a href="https://www.twitch.tv/cplusplus2710">cplusplus2710</a>
+	</li>
+</ul>

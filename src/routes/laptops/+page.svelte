@@ -1,14 +1,32 @@
 <script>
-	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="container mx-auto space-y-8 p-8">
-	<h1 class="h1">Hello Skeleton</h1>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-	<Avatar src="https://i.pravatar.cc/" />
-	<section>
-		<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
-		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
-		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
-	</section>
-</div>
+<ol>
+	<li>
+		<h5>Acer Nitro V with Windows 11 Home Single Language version 23H2</h5>
+	</li>
+	<ul>
+		<li>13th Gen Intel® Core™ i7-13620H x 16</li>
+		<li>16.0 GiB of RAM</li>
+		<li>512GB SSD Storage</li>
+		<li>NVIDIA GeForce RTX 2050</li>
+	</ul>
+	<li>
+		<h5>Dell Vostro 3405 with Arch Linux and Hyprland</h5>
+	</li>
+	<ul>
+		<li>AMD Ryzen 7 3700U</li>
+		<li>13.5 GiB of RAM</li>
+		<li>640.1GB SSD Storage</li>
+		<li>Radeon Vega 10 Mobile Gfx</li>
+	</ul>
+	<li>
+		<h5>HP ProBook 430 G6 with Fedora Workstation 41</h5>
+	</li>
+	<ul>
+		<li>Intel® Core™ i7-8565U CPU @ 1.80GHz x 8</li>
+		<li>13.5 GiB of RAM</li>
+		<li>241.4GB SSD Storage and 1TB HDD Storage</li>
+		<li>Mesa Intel® UHD Graphics 620 (WHL GT2)</li>
+	</ul>
+</ol>

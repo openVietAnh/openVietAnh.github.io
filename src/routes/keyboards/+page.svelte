@@ -1,14 +1,27 @@
 <script>
-	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="container mx-auto space-y-8 p-8">
-	<h1 class="h1">Hello Skeleton</h1>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-	<Avatar src="https://i.pravatar.cc/" />
-	<section>
-		<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
-		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
-		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
-	</section>
-</div>
+<ol>
+	<li>
+		<h5>
+			Sofle V2 with Switch Akko Cream V3 Pro Fairy Silent - Linear /
+			Pre-lubed / 55g and Minimalist Black Keycaps PBT Dye-sub
+			Cherry profile
+		</h5>
+	</li>
+	<li>
+		<h5>Corsair K63 Wireless Blue</h5>
+	</li>
+	<li>
+		<h5>AKKO 3098 RF Dracula Castle</h5>
+	</li>
+	<li>
+		<h5>Leopold FC660M BT</h5>
+	</li>
+	<li>
+		<h5>AKKO 3108 RF White on Black</h5>
+	</li>
+	<li>
+		<h5>Dareu EK807G</h5>
+	</li>
+</ol>
