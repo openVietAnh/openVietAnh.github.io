@@ -12,7 +12,7 @@
 		<li>NVIDIA GeForce RTX 2050</li>
 	</ul>
 	<li>
-		<h5>Dell Vostro 3405 with Arch Linux and Hyprland</h5>
+		<h5>Dell Vostro 3405 with OpenSUSE Tumbleweed and KDE Plasma</h5>
 	</li>
 	<ul>
 		<li>AMD Ryzen 7 3700U</li>
