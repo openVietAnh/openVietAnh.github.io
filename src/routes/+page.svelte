@@ -1,11 +1,11 @@
 <script>
 </script>
 
-<ol>
+<ol class="px-10 py-2">
 	<li>
 		<div class="d-flex w-100 justify-content-between">
-			<h5>Ho Thi Hang's Boyfriend</h5>
-			<p>June 2023 - now</p>
+			<h5>Ho Thi Hang's Boyfriend </h5>
+			<span>June 2023 - now</span>
 		</div>
 		<ul>
 			<li>
@@ -16,7 +16,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Blockchain & Software Engineer</h5>
-			<p>November 2022 - now</p>
+			<span>November 2022 - now</span>
 		</div>
 		<ul>
 			<li>
@@ -33,7 +33,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Data mining and analysis in Decentralized Finance</h5>
-			<p>April 2022 - now</p>
+			<span>April 2022 - now</span>
 		</div>
 		<ul>
 			<li>
@@ -47,7 +47,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Developing decentralized applications</h5>
-			<p>October 2021 - June 2022</p>
+			<span>October 2021 - June 2022</span>
 		</div>
 		<ul>
 			<li>
@@ -61,7 +61,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Blockchain Research</h5>
-			<p>September 2021 - November 2022</p>
+			<span>September 2021 - November 2022</span>
 		</div>
 		<ul>
 			<li>
@@ -80,7 +80,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Teaching Assistant</h5>
-			<p>2020 - 2022</p>
+			<span>2020 - 2022</span>
 		</div>
 		<ul>
 			<li>
@@ -102,7 +102,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Evolutionary Computation Research for Deep Learning</h5>
-			<p>2020 - 2022</p>
+			<span>2020 - 2022</span>
 		</div>
 		<ul>
 			<li>
@@ -121,7 +121,7 @@
 			<h5>
 				Machine Learning/Computer Vision Research for Robotics
 			</h5>
-			<p>2019 - 2022</p>
+			<span>2019 - 2022</span>
 		</div>
 		<ul>
 			<li>

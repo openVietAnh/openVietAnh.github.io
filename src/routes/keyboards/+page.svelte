@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<ol>
+<ol class="px-10 py-2">
 	<li>
 		<h5>
 			Sofle V2 with Switch Akko Cream V3 Pro Fairy Silent - Linear /

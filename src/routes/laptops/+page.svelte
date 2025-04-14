@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<ol>
+<ol class="px-10 py-2">
 	<li>
 		<h5>Acer Nitro V with Windows 11 Home Single Language version 23H2</h5>
 	</li>

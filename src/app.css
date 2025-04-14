@@ -1,61 +1,71 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import '@/styles/gruvbox.css';
+
+@layer base {
+    ul {
+        @apply list-disc;
+    }
+
+    ol {
+        @apply list-decimal;
+    }
+}
 
 html,
 body {
     @apply h-full overflow-hidden;
 }
 
-@font-face {
-    font-family: lmroman;
-    src: url("../lmroman9-regular.otf") format("opentype");
-}
-
 body {
-    background-color: var(--nord0);
-    color: var(--nord4);
+    background-color: var(--bg0_s);
+    color: var(--fg0);
+    font-family: 'Source Code Pro', monospace;
 }
 
 .nav-link {
-    color: var(--nord7);
+    color: var(--blue);
 }
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    background-color: var(--nord1);
-    color: var(--nord13);
+    background-color: var(--orange);
+    color: var(--aqua);
 }
 
 a {
-    color: var(--nord14);
+    color: var(--blue);
 }
 
 button {
-    font-family: lmroman;
     font-weight: bolder;
     font-size: larger;
 }
 
 h1 {
-    font-family: lmroman;
     font-weight: bolder;
 }
 
 h5 {
-    font-family: lmroman;
-    font-weight: bold;
-    font-style: italic;
+    font-weight: bolder;
     margin-bottom: 0;
+    color: var(--purple);
 }
 
 p,
 li {
-    font-family: lmroman;
     margin-bottom: 0;
 }
 
 .container-fluid {
     max-width: 1000px;
     padding-top: 20px;
+}
+
+span {
+    color: var(--green);
+    font-weight: bold;
+    font-style: italic;
 }

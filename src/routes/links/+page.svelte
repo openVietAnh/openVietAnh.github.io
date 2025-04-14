@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<ul>
+<ul class="px-10 py-2">
 	<li>
 		Github: <a href="https://github.com/openVietAnh">openVietAnh</a>
 	</li>

@@ -1,14 +1,14 @@
 <script>
 </script>
 
-<ol>
+<ol class="px-10 py-2">
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>
 				Participant in Science and Technology Research Competition -
 				UET - VNU
 			</h5>
-			<p>2022</p>
+			<span>2022</span>
 		</div>
 		<ul>
 			<li>
@@ -22,7 +22,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Second prize VMO Hackathon Dapp Creator 2021</h5>
-			<p>December 2021</p>
+			<span>December 2021</span>
 		</div>
 		<ul>
 			<li>
@@ -36,7 +36,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Blockchain Specialization Certificates</h5>
-			<p>July 2021</p>
+			<span>July 2021</span>
 		</div>
 		<ul>
 			<li>
@@ -55,7 +55,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Deep Learning Specialization Certificates</h5>
-			<p>August 2020</p>
+			<span>August 2020</span>
 		</div>
 		<ul>
 			<li>
@@ -74,7 +74,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>Youth IT Competition</h5>
-			<p>2017</p>
+			<span>2017</span>
 		</div>
 		<ul>
 			<li>
@@ -97,7 +97,7 @@
 	<li>
 		<div class="d-flex w-100 justify-content-between">
 			<h5>IT Competition for Gifted Students</h5>
-			<p>2015</p>
+			<span>2015</span>
 		</div>
 		<ul>
 			<li>
