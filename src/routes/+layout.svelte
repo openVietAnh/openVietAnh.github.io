@@ -1,24 +1,52 @@
 <script lang="ts">
 	import '../app.css';
 	import { AppBar, AppShell } from '@skeletonlabs/skeleton';
+	import Icon from '@iconify/svelte';
 	let { children } = $props();
+
+	let isSideBarVisible = $state(true);
+
+	const toggleSidebar = () => {
+		isSideBarVisible = !isSideBarVisible;
+	};
 </script>
 
-<AppShell slotSidebarLeft="bg-surface-500/5 w-56 p-4">
+<AppShell slotSidebarLeft="">
 	<svelte:fragment slot="sidebarLeft">
-		<nav class="list-nav">
-			<ul>
-				<li><a href="/">Experiences</a></li>
-				<li><a href="/cert">Certificate & Achievement</a></li>
-				<li><a href="/iot">My IoT Stuff</a></li>
-				<li><a href="/laptops">My Laptops</a></li>
-				<li><a href="/keyboards">My Mechanical Keyboards</a></li>
-				<li><a href="/links">Link</a></li>
-			</ul>
-		</nav>
+		<div
+			class="transition-all duration-300 ease-in-out"
+			class:w-40={isSideBarVisible}
+			class:w-0={!isSideBarVisible}
+		>
+			{#if isSideBarVisible}
+				<nav class="list-nav">
+					<ul>
+						<li><a href="/">Experiences</a></li>
+						<li><a href="/cert">Certificate & Achievement</a></li>
+						<li><a href="/iot">My IoT Stuff</a></li>
+						<li><a href="/laptops">My Laptops</a></li>
+						<li><a href="/keyboards">My Mechanical Keyboards</a></li>
+						<li><a href="/links">Link</a></li>
+					</ul>
+				</nav>
+			{/if}
+		</div>
 	</svelte:fragment>
-	{@render children()}
+
+	<svelte:fragment>
+		<div class="transition-all duration-300 ease-in-out">
+			{@render children()}
+		</div>
+	</svelte:fragment>
+
 	<svelte:fragment slot="header">
-		<AppBar class="!bg-[#f2e5bc] border-b-2 border-[#928374]"><h5>Tran Viet Anh - (+84) 988 582 914 - vietanhtran.uet@gmail.com</h5></AppBar>
+		<AppBar class="border-b-2 border-[#928374] !bg-[#f2e5bc]">
+			<div class="flex gap-3">
+				<button onclick={toggleSidebar}>
+					<Icon icon="material-symbols:menu-rounded" width="24" height="24" />
+				</button>
+				<h5>Tran Viet Anh - (+84) 988 582 914 - vietanhtran.uet@gmail.com</h5>
+			</div>
+		</AppBar>
 	</svelte:fragment>
 </AppShell>

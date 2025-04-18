@@ -4,7 +4,7 @@
 <ol class="px-10 py-2">
 	<li>
 		<div class="d-flex w-100 justify-content-between">
-			<h5>Ho Thi Hang's Boyfriend </h5>
+			<h5>Ho Thi Hang's Boyfriend</h5>
 			<span>June 2023 - now</span>
 		</div>
 		<ul>
@@ -23,10 +23,7 @@
 				<p>Teko Solution</p>
 			</li>
 			<li>
-				<p>
-					Micro-frontend, Aiken, Golang, Kotlin, React, CI/CD,
-					JavaScript/TypeScript
-				</p>
+				<p>Micro-frontend, Aiken, Golang, Kotlin, React, CI/CD, JavaScript/TypeScript</p>
 			</li>
 		</ul>
 	</li>
@@ -68,9 +65,7 @@
 				<p>Blockchain Research and Application Laboratory - UET</p>
 			</li>
 			<li>
-				<p>
-					Supervisor: Associate Professor PhD. Trương Anh Hoàng.
-				</p>
+				<p>Supervisor: Associate Professor PhD. Trương Anh Hoàng.</p>
 			</li>
 			<li>
 				<p>Solidity, Rust, Ethereum, Avalanche, Terra</p>
@@ -84,15 +79,10 @@
 		</div>
 		<ul>
 			<li>
-				<p>
-					Class: Robotics (INT 3409) - ROS (Robot Operating System)
-				</p>
+				<p>Class: Robotics (INT 3409) - ROS (Robot Operating System)</p>
 			</li>
 			<li>
-				<p>
-					Teachers: PhD. Ta Viet Cuong, PhD. Le Nguyen Khoi, Grad
-					Student. Pham Dình Tuan.
-				</p>
+				<p>Teachers: PhD. Ta Viet Cuong, PhD. Le Nguyen Khoi, Grad Student. Pham Dình Tuan.</p>
 			</li>
 			<li>
 				<p>C++, Python, Tensorflow, OpenCV</p>
@@ -118,9 +108,7 @@
 	</li>
 	<li>
 		<div class="d-flex w-100 justify-content-between">
-			<h5>
-				Machine Learning/Computer Vision Research for Robotics
-			</h5>
+			<h5>Machine Learning/Computer Vision Research for Robotics</h5>
 			<span>2019 - 2022</span>
 		</div>
 		<ul>
