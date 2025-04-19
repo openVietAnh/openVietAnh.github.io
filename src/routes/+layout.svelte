@@ -6,6 +6,12 @@
 
 	let isSideBarVisible = $state(true);
 
+    if (typeof window !== 'undefined') {
+        isSideBarVisible = window.matchMedia('(min-width: 768px)').matches;
+        window.matchMedia('(min-width: 768px)').addEventListener('change', (e) => {
+            isSideBarVisible = e.matches;
+        });
+    }
 	const toggleSidebar = () => {
 		isSideBarVisible = !isSideBarVisible;
 	};
