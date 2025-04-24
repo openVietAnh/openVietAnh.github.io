@@ -21,7 +21,7 @@
 		<li>Radeon Vega 10 Mobile Gfx</li>
 	</ul>
 	<li>
-		<h5>HP ProBook 430 G6 with Arch Linux and GNOME</h5>
+		<h5>HP ProBook 430 G6 with Manjaro Linux and GNOME</h5>
 	</li>
 	<ul>
 		<li>Intel® Core™ i7-8565U CPU @ 1.80GHz x 8</li>
