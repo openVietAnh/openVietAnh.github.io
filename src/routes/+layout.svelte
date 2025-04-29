@@ -15,6 +15,9 @@
 	const toggleSidebar = () => {
 		isSideBarVisible = !isSideBarVisible;
 	};
+	const hideSiderbar = () => {
+		isSideBarVisible = false;
+	}
 </script>
 
 <AppShell slotSidebarLeft="">
@@ -27,12 +30,12 @@
 			{#if isSideBarVisible}
 				<nav class="list-nav">
 					<ul>
-						<li><a href="/">Experiences</a></li>
-						<li><a href="/cert">Certificate & Achievement</a></li>
-						<li><a href="/iot">My IoT Stuff</a></li>
-						<li><a href="/laptops">My Laptops</a></li>
-						<li><a href="/keyboards">My Mechanical Keyboards</a></li>
-						<li><a href="/links">Link</a></li>
+						<li><a href="/" onclick={() => hideSiderbar()}>Experiences</a></li>
+						<li><a href="/cert" onclick={() => hideSiderbar()}>Certificate & Achievement</a></li>
+						<li><a href="/iot" onclick={() => hideSiderbar()}>My IoT Stuff</a></li>
+						<li><a href="/laptops" onclick={() => hideSiderbar()}>My Laptops</a></li>
+						<li><a href="/keyboards" onclick={() => hideSiderbar()}>My Mechanical Keyboards</a></li>
+						<li><a href="/links" onclick={() => hideSiderbar()}>Link</a></li>
 					</ul>
 				</nav>
 			{/if}
