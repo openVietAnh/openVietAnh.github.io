@@ -39,6 +39,9 @@
 			<li>
 				<p>Python, GraphQL</p>
 			</li>
+			<li>
+				<p>Result: <a href="https://www.sciencedirect.com/science/article/pii/S1044028324001273">The determinants of funding liquidity risk in decentralized lending</a></p>
+			</li>
 		</ul>
 	</li>
 	<li>
