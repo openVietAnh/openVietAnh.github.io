@@ -35,7 +35,7 @@
 						<li><a href="/iot" onclick={() => hideSiderbar()}>My IoT Stuff</a></li>
 						<li><a href="/laptops" onclick={() => hideSiderbar()}>My Laptops</a></li>
 						<li><a href="/keyboards" onclick={() => hideSiderbar()}>My Mechanical Keyboards</a></li>
-						<li><a href="/links" onclick={() => hideSiderbar()}>Link</a></li>
+						<li><a href="/links" onclick={() => hideSiderbar()}>Links</a></li>
 					</ul>
 				</nav>
 			{/if}
