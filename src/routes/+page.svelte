@@ -4,17 +4,6 @@
 <ol class="px-10 py-2">
 	<li>
 		<div class="d-flex w-100 justify-content-between">
-			<h5>Ho Thi Hang's Boyfriend</h5>
-			<span>June 2023 - now</span>
-		</div>
-		<ul>
-			<li>
-				<p>Cooking</p>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<div class="d-flex w-100 justify-content-between">
 			<h5>Blockchain & Software Engineer</h5>
 			<span>November 2022 - now</span>
 		</div>
@@ -123,6 +112,17 @@
 			</li>
 			<li>
 				<p>C++, Python, Tensorflow, OpenCV</p>
+			</li>
+		</ul>
+	</li>
+    <li>
+		<div class="d-flex w-100 justify-content-between">
+			<h5>Ho Thi Hang's Boyfriend</h5>
+			<span>June 2023 - now</span>
+		</div>
+		<ul>
+			<li>
+				<p>Cooking</p>
 			</li>
 		</ul>
 	</li>
