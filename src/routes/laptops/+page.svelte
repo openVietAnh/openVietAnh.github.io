@@ -3,7 +3,7 @@
 
 <ol class="px-10 py-2">
 	<li>
-		<h5>Acer Nitro V with Windows 11 Home Single Language version 23H2 Dual Boot Ubuntu 24.04</h5>
+		<h5>Acer Nitro V with Windows 11 Home Single Language version 23H2 Dual Boot Fedora 42</h5>
 	</li>
 	<ul>
 		<li>13th Gen Intel® Core™ i7-13620H x 16</li>
@@ -12,7 +12,7 @@
 		<li>NVIDIA GeForce RTX 2050</li>
 	</ul>
 	<li>
-		<h5>Dell Vostro 3405 with OpenSUSE Tumbleweed and KDE Plasma</h5>
+		<h5>Dell Vostro 3405 with Ubuntu 24.04 LTS</h5>
 	</li>
 	<ul>
 		<li>AMD Ryzen 7 3700U</li>
@@ -21,7 +21,7 @@
 		<li>Radeon Vega 10 Mobile Gfx</li>
 	</ul>
 	<li>
-		<h5>HP ProBook 430 G6 with OpenSUSE Tumbleweed and GNOME</h5>
+		<h5>HP ProBook 430 G6 with Debian 12</h5>
 	</li>
 	<ul>
 		<li>Intel® Core™ i7-8565U CPU @ 1.80GHz x 8</li>
