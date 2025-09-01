@@ -3,7 +3,7 @@
 
 <ol class="px-10 py-2">
 	<li>
-		<h5>Acer Nitro V with Windows 11 Home Single Language version 23H2 Dual Boot Fedora 42</h5>
+		<h5>Acer Nitro V with Windows 11 Home Single Language version 23H2 Dual Boot Debian 12</h5>
 	</li>
 	<ul>
 		<li>13th Gen Intel® Core™ i7-13620H x 16</li>
