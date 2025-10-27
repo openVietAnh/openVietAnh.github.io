@@ -21,12 +21,12 @@
 		<li>Radeon Vega 10 Mobile Gfx</li>
 	</ul>
 	<li>
-		<h5>HP ProBook 430 G6 with Debian 12</h5>
+		<h5>ASUS Vivobook S 14 with OpenSUSE Leap 16.0</h5>
 	</li>
 	<ul>
-		<li>Intel® Core™ i7-8565U CPU @ 1.80GHz x 8</li>
-		<li>13.5 GiB of RAM</li>
-		<li>241.4GB SSD Storage and 1TB HDD Storage</li>
-		<li>Mesa Intel® UHD Graphics 620 (WHL GT2)</li>
+		<li>14 × Intel® Core™ Ultra 5 225H</li>
+		<li>16 GiB of RAM (15.1 GiB usable)</li>
+		<li>474.4GB SSD Storage</li>
+		<li>Mesa Intel® Graphics</li>
 	</ul>
 </ol>
