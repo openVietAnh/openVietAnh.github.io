@@ -7,18 +7,14 @@
 	</li>
 	<li>
 		Facebook:
-		<a href="https://www.facebook.com/tv.anh2k/"
-		>Trần Việt Anh (Abel)</a
-		>
+		<a href="https://www.facebook.com/tv.anh2k/">Trần Việt Anh</a>
 	</li>
 	<li>
 		Twitter: <a href="https://x.com/tr_vietanh">@tr_vietanh</a>
 	</li>
 	<li>
 		Instagram:
-		<a href="https://www.instagram.com/println_anh.tv/"
-		>@println_anh.tv</a
-		>
+		<a href="https://www.instagram.com/println_anh.tv/">@println_anh.tv</a>
 	</li>
 	<li>
 		CodeForces:
@@ -26,9 +22,7 @@
 	</li>
 	<li>
 		Leetcode:
-		<a href="https://leetcode.com/u/vietanhtranuet/"
-		>vietanhtranuet</a
-		>
+		<a href="https://leetcode.com/u/vietanhtranuet/">vietanhtranuet</a>
 	</li>
 	<li>
 		Twitch:
